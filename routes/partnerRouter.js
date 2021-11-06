@@ -24,8 +24,8 @@ partnerRouter
     res.end("Deleting all partners");
   });
 
-//campsiteId Router
-campsiteRouter
+//partnerId Router
+partnerRouter
   .route("/:partnerId")
   .all((req, res, next) => {
     res.statusCode = 200;
